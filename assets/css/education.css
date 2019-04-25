@@ -1,0 +1,106 @@
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	font-family: Segoe UI, sans-serif;
+	background-image: linear-gradient(to right, #0B2F58,#0F5A76);
+}
+a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#page-container {
+	height:100%;
+	position:relative;
+}
+.navbar-item:hover {
+	cursor:pointer;
+	text-decoration: underline;
+}
+.navbar-item {
+	color:#FFFFFF;
+	font-size:16pt;
+	padding:40px;
+}
+#navbar {
+	display:flex;
+	justify-content:center;
+}
+.cont {
+	color:white;
+}
+#education-container{ 
+	font-family:sans-serif;
+ }
+.content{
+/*	padding-bottom: 2pt;*/
+}
+.edu-title{
+	font-family:sans-serif;
+	background-color:black;
+	color:white;
+	font-size:24pt;
+	font-family:sans-serif;
+	width:20%;
+	text-align:center;
+	border-radius: 20px;
+}
+#berkeley-title{
+	font-family:sans-serif;
+	background-color:#003262;
+	color:#C4820E;
+	font-size:20pt;
+	font-family:sans-serif;
+	width:20%;
+	text-align:center;
+	border-radius: 24px;
+	border-color:black;
+	border-width: thick;
+}
+#mpc-title{
+	font-family:sans-serif;
+	background-color:#1c75a7;
+	color:white;
+	font-size:20pt;
+	font-family:sans-serif;
+	width:20%;
+	text-align:center;
+	border-radius: 24px;
+	border-color:black;
+	border-width: thick;
+}
+#gt-title{
+	font-family:sans-serif;
+	background-color:#EEB211;
+	color:black;
+	font-size:20pt;
+	font-family:sans-serif;
+	width:15%;
+	text-align:center;
+	border-radius: 24px;
+	border-color:black;
+	border-width: thick;
+}
+.research-title{
+	font-family:sans-serif;
+	background-color:black;
+	color:white;
+	font-size:20pt;
+	font-family:sans-serif;
+	text-align:center;
+	border-radius: 20px;
+}
+#bair-title{
+	width:52%;
+}
+#auburn-title{
+	width:35%;
+}
+.edu{
+	padding-bottom: 2%;
+	padding-left:10%;
+}
+.header{
+	padding-bottom: 2%;
+}
