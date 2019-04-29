@@ -41,11 +41,12 @@ a{
 	overflow:hidden;
 	border-radius: 50%;
 	top:120%;
+	display: none;
 
 }
 #photo-container {
 	display:flex;
 	justify-content: center;
-	height: 100%
+	height: 100%;
 
 }
