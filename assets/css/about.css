@@ -53,7 +53,7 @@ input {
 	position: absolute;
 	width:100%;
 	color:white;
-	bottom:20%;
+	bottom:40%;
 }
 #button-container{
 	display:flex;
@@ -61,7 +61,7 @@ input {
 	justify-content: space-between;
 	width:100%;
 	top:50%;
-	transform:translateY(-50%);
+	transform:translateY(-120%);
 }
 #test {
 	width:100%;
@@ -73,14 +73,18 @@ input {
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 	width:100%;
 }
 .about-content {
 	padding-left: 10%;
-	width:50%;
+	width:40%;
 	padding-right:2%;
+
+	/*position: relative;
+	transform:translateY(50%);*/
 }
 .about-image{
 	padding-left:2%;
-	padding-right: 10%;
+	padding-right: 15%;
 }
