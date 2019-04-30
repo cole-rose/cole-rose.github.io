@@ -1,5 +1,5 @@
 $(document).ready(function() {
 // jQuery and JavaScript code goes in here!
-	$('#photo').fadeIn(4000).removeClass('hidden');
+	$('#photo').fadeIn(2000).removeClass('hidden');
 
 });
