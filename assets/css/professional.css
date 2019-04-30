@@ -95,8 +95,8 @@ a{
 .projects-content{
 	padding-left: 1%;
 }
-/*#pta-photo {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}*/
+iframe {
+	border : 1pt solid;
+	border-color:black;
+	border-width: thick;
+}
