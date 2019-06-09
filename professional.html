@@ -36,8 +36,8 @@
                         <div id = "deep-content"  class = "prof-content">
                             <p>At CalHacks 2018, I lead a team of 3 in developing a supervised deep learning algorithm for classifiying images of cellular tissue
                                 as cancerous or benign. I initially utilized convolutional neural networks in Tensorflow Keras to train over 4000 images.
-                                Not getting the results that I wanted, I deduced that either my learning rate was too high or that I did not have enough 
-                                data to make an accurate prediction. My laptop did not have the necessary computing power for me to increase the learning rate in the limited
+                                Not getting the results that I wanted, I deduced that one or more of the following problems had occured: the number of epochs that I used was to low, I did not have
+                                data to capture the variance among the images, or that my network needed more layers. My laptop did not have the necessary computing power for me to increase the epochs and layers in the limited
                                 time that I had. After researching for some time, I discovered a solution to solve both of my problems. First, I uploaded the cell images to Google Cloud. I then utilized Google's pretrained networks
                                 through Google's AutoML API to increase the accuracy and speed of my training. This resulted in an algorithm with over 90% accuracy, as can be seen in the confusion matrix displayed in the picture to the right.
                             </p>
