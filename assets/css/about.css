@@ -16,9 +16,9 @@ p{
 #page-container {
 	position:relative;
 }
-.navbar-item:hover {
-	cursor:pointer;
-	text-decoration: underline;
+a:hover{
+        cursor:pointer;
+        text-decoration: underline;
 }
 .navbar-item {
 	color:#FFFFFF;
