@@ -150,4 +150,6 @@ img{
 	width: 85%;
 	text-align: center;
 	background-color: #4CAF50; 
+	padding-top: 1pt;
+	padding-bottom: 1pt;
 }
