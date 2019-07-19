@@ -147,6 +147,8 @@ img{
 	border-color:black;
 	border-width: thick;
 	font-size: 20pt;
-	border-radius: 80%;
-	width: 80%;
+	border-radius: 2px;
+	width: 85;
+	text-align: center;
+	background-color: #4CAF50; 
 }
