@@ -146,10 +146,10 @@ img{
 	border:3px solid;
 	border-color:black;
 	border-width: thick;
-	font-size: 20pt;
+	font-size: 14pt;
 	width: 85%;
 	text-align: center;
 	background-color: #4CAF50; 
-	padding-top: 1pt;
-	padding-bottom: 1pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
 }
