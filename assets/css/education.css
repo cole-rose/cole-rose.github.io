@@ -142,3 +142,9 @@ img{
 .edu-cont-written{
 	font-size:16pt;
 }
+#uav{
+	border:1px solid;
+	border-color:black;
+	border-width: thick;
+	font-size: 20pt;
+}
