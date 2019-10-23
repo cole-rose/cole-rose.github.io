@@ -152,6 +152,7 @@ img{
 	background-color: #4CAF50; 
 	padding-top: 2pt;
 	padding-bottom: 2pt;
+	opacity:.6;
 }
 #uav.hover{
 	opacity:1;
