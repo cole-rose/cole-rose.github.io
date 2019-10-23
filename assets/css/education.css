@@ -153,3 +153,6 @@ img{
 	padding-top: 2pt;
 	padding-bottom: 2pt;
 }
+#uav.hover{
+	opacity:1;
+}
