@@ -8,8 +8,8 @@ a{
 }
 #page-container {
 	position:relative;
-	width: 100%;
-	height:100%;
+	width: auto%;
+	height:auto%;
 }
 a:hover{
         cursor:pointer;
@@ -47,7 +47,7 @@ a:hover{
 #photo-container {
 	display:flex;
 	justify-content: center;
-	height: 100%;
+	height: auto;
 
 }
 #content-container{
