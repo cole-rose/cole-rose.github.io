@@ -8,8 +8,8 @@ a{
 }
 #page-container {
 	position:relative;
-	width: auto%;
-	height:auto%;
+	width: auto;
+	height:auto;
 }
 a:hover{
         cursor:pointer;
