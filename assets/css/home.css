@@ -39,10 +39,10 @@ a:hover{
 	padding-bottom: .5%;
 }
 #photo {
-	position:absolute;
+/* 	position:absolute; */
 	overflow:hidden;
 	border-radius: 50%;
-	top:120%;
+/* 	top:120%; */
 
 }
 #photo-container {
