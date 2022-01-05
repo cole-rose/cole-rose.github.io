@@ -1,56 +1,65 @@
 body {
-	font-family: Segoe UI;
-	background: #707070;
-	width:100%;
+    font-family: Segoe UI;
+    background: #707070;
+    width: 100%;
 }
-a{
-	color:#FFFFFF;
-	text-decoration: none;
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
 #page-container {
-	position:relative;
-	width: auto;
-	height:auto;
+    position: relative;
+    width: auto;
+    height: auto;
 }
-a:hover{
-        cursor:pointer;
-        text-decoration: underline;
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
+
 .navbar-item {
-	color:#FFFFFF;
-	font-size:16pt;
-	padding:40px;
+    color: #FFFFFF;
+    font-size: 16pt;
+    padding: 40px;
 }
+
 #navbar {
-	display:flex;
-	justify-content:center;
+    display: flex;
+    justify-content: center;
 }
+
 #name {
-	color: #86C232;
-	font-size: 28pt;
-	padding:18px;
-	position: absolute;
-	top:12%;
-	margin-bottom:14px;
+    color: #86C232;
+    font-size: 28pt;
+    padding: 18px;
+    position: absolute;
+    top: 12%;
+    margin-bottom: 14px;
 }
+
 #name-container {
-	display:flex;
-	justify-content: center;
-	padding-bottom: .5%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: .5%;
 }
+
 #photo {
-/* 	position:absolute; */
-	overflow:hidden;
-	border-radius: 50%;
-/* 	top:120%; */
-
+    display: flex;
+    justify-content: 'center';
+    overflow: hidden;
+    border-radius: 50%;
 }
+
 #photo-container {
-	display:flex;
-	justify-content: center;
-	height: auto;
-
+    padding-top: 16;
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
-#content-container{
-	padding-top: 1%;
+
+#content-container {
+    padding-top: 1%;
 }

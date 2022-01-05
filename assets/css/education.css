@@ -1,159 +1,183 @@
 html {
-	height:100%;
+    height: 100%;
 }
-body {
-	height:100%;
-	font-family: Segoe UI, sans-serif;
-	background-image: linear-gradient(to right, #0B2F58,#0F5A76);
-}
-a{
-	color:#FFFFFF;
-	text-decoration: none;
-}
-#page-container {
-	height:100%;
-	position:relative;
-}
-a:hover{
-        cursor:pointer;
-        text-decoration: underline;
-}
-.navbar-item {
-	color:#FFFFFF;
-	font-size:16pt;
-	padding:40px;
-}
-#navbar {
-	display:flex;
-	justify-content:center;
-}
-.cont {
-	color:white;
-}
-.edu-title{
-	font-family:sans-serif;
-	background-color:black;
-	color:white;
-	font-size:24pt;
-	font-family:sans-serif;
-	width:100%;
-	text-indent: 1em;
-/*	border-radius: 20px;*/
-}
-#berkeley-title{
-	font-family:sans-serif;
-	background-color:#003262;
-	color:#C4820E;
-	font-size:20pt;
-	font-family:sans-serif;
-	width:20%;
-	text-align:center;
-	border:1px solid;
-	border-color:black;
-	border-width: thick;
-}
-#mpc-title{
-	font-family:sans-serif;
-	background-color:#1c75a7;
-	color:white;
-	font-size:20pt;
-	font-family:sans-serif;
-	width:20%;
-	text-align:center;
-/*	border-radius: 24px;*/
-	border:1px solid;
-	border-color:black;
-	border-width: thick;
-}
-#gt-title{
-	font-family:sans-serif;
-	background-color:#EEB211;
-	color:black;
-	font-size:20pt;
-	font-family:sans-serif;
-	width:15%;
-	text-align:center;
-/*	border-radius: 24px;*/
-	border-color:black;
-	border-width: thick;
-}
-.research-title{
-	font-family:sans-serif;
-	background-color:black;
-	color:white;
-	font-size:20pt;
-	font-family:sans-serif;
-	text-align:center;
-/*	border-radius: 20px;*/
-}
-#bair-title{
-	width:52%;
-	background-color: #004c7d;
-	color:#fd8515;
-	border:1px solid;
-	border-color:black;
-	border-width: thick;
-}
-#auburn-title{
-	width:35%;
-	background-color:#03244d;
-	color:#dd550c;
-	border: 1pt solid;
-	border-color:black;
-	border-width: thick;
-}
-.edu{
-	padding-bottom: 2%;
-	padding-left:5%;
-}
-.header{
-	padding-bottom: 1%;
-	padding-top: 1%;
-}
-.edu-cont {
-	padding-left: 4%;
-	padding-bottom: 1%;
-	padding-top: 2%;
-	width:50%;
-	display:flex;
-	flex-direction: row;
-	width:100%;
-	align-items: center;
-}
-.edu-cont-written{
-	width:50%;
-	padding-right: 2%;
-}
-img{
-	border: 1pt solid;
-	border-color:black;
-	border-width: thick;
 
+body {
+    height: 100%;
+    font-family: Segoe UI, sans-serif;
+    background-image: linear-gradient(to right, #0B2F58, #0F5A76);
 }
-#bair-photo{
-	height:80%;
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
+#page-container {
+    height: 100%;
+    position: relative;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar-item {
+    color: #FFFFFF;
+    font-size: 16pt;
+    padding: 40px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    color: white;
+}
+
+.edu-title {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+    font-family: sans-serif;
+    width: 100%;
+    text-indent: 1em;
+    /*	border-radius: 20px;*/
+}
+
+#berkeley-title {
+    font-family: sans-serif;
+    background-color: #003262;
+    color: #C4820E;
+    font-size: 20pt;
+    font-family: sans-serif;
+    width: 20%;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    border-width: thick;
+}
+
+#mpc-title {
+    font-family: sans-serif;
+    background-color: #1c75a7;
+    color: white;
+    font-size: 20pt;
+    font-family: sans-serif;
+    width: 20%;
+    text-align: center;
+    /*	border-radius: 24px;*/
+    border: 1px solid;
+    border-color: black;
+    border-width: thick;
+}
+
+#gt-title {
+    font-family: sans-serif;
+    background-color: #EEB211;
+    color: black;
+    font-size: 20pt;
+    font-family: sans-serif;
+    width: 15%;
+    text-align: center;
+    /*	border-radius: 24px;*/
+    border-color: black;
+    border-width: thick;
+}
+
+.research-title {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+    font-family: sans-serif;
+    text-align: center;
+    /*	border-radius: 20px;*/
+}
+
+#bair-title {
+    width: 52%;
+    background-color: #004c7d;
+    color: #fd8515;
+    border: 1px solid;
+    border-color: black;
+    border-width: thick;
+}
+
+#auburn-title {
+    width: 35%;
+    background-color: #03244d;
+    color: #dd550c;
+    border: 1pt solid;
+    border-color: black;
+    border-width: thick;
+}
+
+.edu {
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+.header {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.edu-cont {
+    padding-left: 4%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.edu-cont-written {
+    width: 50%;
+    padding-right: 2%;
+}
+
+img {
+    border: 1pt solid;
+    border-color: black;
+    border-width: thick;
+}
+
+#bair-photo {
+    height: 80%;
+}
+
+
 /*#berk-cont-written {
 	font-size: 16pt;
 }
 #mpc-cont-written{
 	font-size: 16pt;
 }*/
-.edu-cont-written{
-	font-size:16pt;
+
+.edu-cont-written {
+    font-size: 16pt;
 }
-#uav{
-	border:3px solid;
-	border-color:black;
-	border-width: thick;
-	font-size: 14pt;
-	width: 65%;
-	text-align: center;
-	background-color: #4CAF50; 
-	padding-top: 2pt;
-	padding-bottom: 2pt;
-	opacity:.8;
+
+#uav {
+    border: 3px solid;
+    border-color: black;
+    border-width: thick;
+    font-size: 14pt;
+    width: 65%;
+    text-align: center;
+    background-color: #4CAF50;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    opacity: .8;
 }
-#uav:hover{
-	opacity:1;
+
+#uav:hover {
+    opacity: 1;
 }
