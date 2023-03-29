@@ -1,6 +1,6 @@
 body {
-    font-family: Segoe UI;
-    background: #707070;
+    font-family: Segoe UI, sans-serif;
+    background-image: linear-gradient(to right, #0B2F58, #0F5A76);
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ a:hover {
 }
 
 #name {
-    color: #86C232;
+    color: black;
     font-size: 28pt;
     padding: 18px;
     position: absolute;
@@ -47,6 +47,7 @@ a:hover {
 }
 
 #photo {
+    margin:16pt;
     display: flex;
     justify-content: 'center';
     overflow: hidden;
